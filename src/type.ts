@@ -1,4 +1,4 @@
-export interface maisonRecord {
+export interface agenceRecord {
     adresse: string;
   collectionId: string;
   Chambres: number;

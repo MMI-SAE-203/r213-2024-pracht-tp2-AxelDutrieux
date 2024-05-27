@@ -3,9 +3,9 @@
 import MaisonCard from '@/components/maisonCard.vue'  
 import {pb} from '@/backend';
 import type { agenceRecord } from '@/type'
-import { allMaisonsFavori } from '@/backend'
+import { allMaisonsSorted } from '@/backend'
 
-const maisonsListe = await allMaisonsFavori()
+const maisonsListe = await allMaisonsSorted()
 </script>
 
 <template>
